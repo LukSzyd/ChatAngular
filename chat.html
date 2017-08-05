@@ -1,0 +1,12 @@
+<div class="chatContainer">
+     <div class="displayMessage panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">Czat {{selectedName.username}}</h3>
+        </div>
+        <div id="chatContent" class="panel-body">
+        </div>
+      </div>
+    <div class="textArea">
+       <input type='text'  class="form-control" placeholder="Send message" id="txtMsg" ng-keypress="sendMsg($event)">
+    </div>
+</div>

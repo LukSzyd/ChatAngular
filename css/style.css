@@ -1,0 +1,55 @@
+#login {
+    width:30%;
+    margin:auto;
+}
+#connect {
+    margin-top: 10px;
+}
+/*wyświetlanie treści czata*/
+.displayMessage {
+    height: 500px;
+}
+.panel-heading {
+    height: 8%;
+}
+#chatContent {
+    overflow-y: auto;
+    height: 92%;
+    padding: 0px;
+}
+
+
+/*dymki czatu z nowymi wiadomosciami od kogos*/
+.newMessageFrom {
+    width: 40%;
+    margin-top: 12px;
+    margin-left: 59%;
+    margin-bottom: 0px;
+    overflow-wrap: break-word;//zawijanie tekstu
+
+}
+/*dymki czatu z wlasnymi wiadomosciam*/
+.newMessageTo {
+    width: 40%;
+    margin-top: 12px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    overflow-wrap: break-word;//zawijanie tekstu
+}
+.newMessageFrom .getTime {
+    float:right;
+    font-size: xx-small;
+    position: relative;
+    top: 12px;
+    left: 14px;
+}
+.newMessageTo .getTime {
+    float:right;
+    font-size: xx-small;
+    position: relative;
+    top: 12px;
+    left: 14px;
+}
+
+
+
